@@ -1,0 +1,17 @@
+# Auto-generated config.Config textproto
+email {}
+server {
+  application_name: "Prompt Library"
+  logs_retention_sec: 604800
+}
+auth {
+  auth_token_ttl_sec: 3600
+  refresh_token_ttl_sec: 2592000
+}
+jobs {}
+record_apis: [{
+  name: "prompts"
+  table_name: "prompts"
+  acl_world: [READ, CREATE, UPDATE, DELETE]
+  enable_subscriptions: true
+}]

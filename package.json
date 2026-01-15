@@ -1,0 +1,38 @@
+{
+  "name": "prompt-library",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "trail": "trail run"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.18",
+    "@types/bun": "latest",
+    "@types/react": "^19.2.8",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.1.2",
+    "tailwindcss": "^4.1.18",
+    "vite": "^7.3.1"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@tanstack/db": "^0.5.20",
+    "@tanstack/react-db": "^0.1.64",
+    "@tanstack/trailbase-db-collection": "^0.1.64",
+    "dexie": "^4.2.1",
+    "lucide-react": "^0.562.0",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "tanstack-dexie-db-collection": "^0.1.4",
+    "trailbase": "^0.8.0",
+    "uuidv7": "^1.1.0",
+    "zod": "^4.3.5"
+  }
+}
